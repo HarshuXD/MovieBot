@@ -21,10 +21,6 @@
 - [x] Stats, Users, Chats, Ban, Unban, Leave, Disable, Channel
 - [x] Spelling Check Feature
 
-## Variables
-
-Read [this](https://telegram.dog/TeamEvamaria/12) before you start messing up with your edits.
-
 ### Required Variables
 * `BOT_TOKEN`: Create a bot using [@BotFather](https://telegram.dog/BotFather), and get the Telegram API token.
 * `API_ID`: Get this value from [telegram.org](https://my.telegram.org/apps)
@@ -90,5 +86,5 @@ python3 bot.py
 • /ban  - to ban a user.
 • /unban  - to unban a user.
 • /channel - to get list of total connected channels
-• /broadcast - to broadcast a message to all Eva Maria users
+• /broadcast - to broadcast a message to all MovieBot users
 ```
