@@ -2,7 +2,7 @@
   <img src="assets/photo_2021-12-16_20-52-22.jpg">
 </p>
 <h1 align="center">
-  <b>Eva Maria Bot</b>
+  <b>AafuSam MovieBot</b>
 </h1>
 
 
