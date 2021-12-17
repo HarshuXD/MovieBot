@@ -21,7 +21,7 @@ async def start(client, message):
                 InlineKeyboardButton('🤖 Join Channel', url='https://t.me/Apkapkapak_Movies')
             ],
             [
-                InlineKeyboardButton('ℹ️ Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
+                InlineKeyboardButton(' ⭕️ Owner', url=f"https://t.me/AafuSam13"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -41,6 +41,7 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
             InlineKeyboardButton('🤖 Join Channel', url='https://t.me/Apkapkapak_Movies')
+            InlineKeyboardButton('⭕️ Owner', url='https://t.me/AafuSam13')
             ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
@@ -82,6 +83,7 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
             InlineKeyboardButton('🤖 Join Channel', url='https://t.me/Apkapkapak_Movies')
+            InlineKeyboardButton('⭕️ Owner', url='https://t.me/AafuSam13')
             ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
