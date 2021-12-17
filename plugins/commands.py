@@ -41,7 +41,6 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
             InlineKeyboardButton('🤖 Join Channel', url='https://t.me/Apkapkapak_Movies')
-            InlineKeyboardButton('⭕️ Owner', url='https://t.me/AafuSam13')
             ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
