@@ -62,7 +62,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "〽️Join The Group Now〽️", url=invite_link.invite_link
+                    "〽️Join The Channel Now〽️", url=invite_link.invite_link
                 )
             ]
         ]
@@ -71,7 +71,7 @@ async def start(client, message):
             btn.append([InlineKeyboardButton(" 🔄 Try Again", callback_data=f"checksub#{message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
-            text="**To Use The Bot, Join The Group ASAP 👇👇!**",
+            text="**To Use The Bot, Join The Channel ASAP 👇👇!**",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode="markdown"
             )
