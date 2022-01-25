@@ -38,7 +38,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
-PUBLIC_FILE_STORE = int(engiron.get('PUBLIC_FILE_STORE', 0))
+PUBLIC_FILE_STORE = int(environ.get('PUBLIC_FILE_STORE', 0))
 FILE_STORE_CHANNEL = int (environ.get('FILE_STORE_CHANNEL', 0))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Apkapkapak_Movies')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
