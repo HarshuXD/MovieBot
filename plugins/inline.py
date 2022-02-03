@@ -75,7 +75,7 @@ async def answer(bot, query):
             await query.answer(results=[], is_personal=True,
                            cache_time=cache_time,
                            switch_pm_text=str(e)[:63],
-                           switch_pm_parameter="error")
+                           switch_pm_parameter="start")
     else:
         switch_pm_text = f'{emoji.CROSS_MARK} No results'
         if string:
