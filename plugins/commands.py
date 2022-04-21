@@ -18,10 +18,10 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('🤖 Join Channel', url='https://t.me/StarterMods')
+                InlineKeyboardButton('🤖 Join Channel', url='https://t.me/StarterMoviez')
             ],
             [
-                InlineKeyboardButton(' ⭕️ Owner', url=f"https://t.me/Harshu_xD"),
+                InlineKeyboardButton(' ⭕️ Owner', url=f"https://t.me/HarshXDx"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -40,7 +40,7 @@ async def start(client, message):
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 Join Channel', url='https://t.me/StarterMods')
+            InlineKeyboardButton('🤖 Join Channel', url='https://t.me/StarterMoviez')
             ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
@@ -81,7 +81,7 @@ async def start(client, message):
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 Join Channel', url='hhttps://t.me/StarterMods')
+            InlineKeyboardButton('🤖 Join Channel', url='https://t.me/StarterMoviez')
             ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
